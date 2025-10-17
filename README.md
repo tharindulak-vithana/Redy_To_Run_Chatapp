@@ -39,6 +39,16 @@ It allows multiple or more clients to connect to a central server and exchange p
 7. (Optional) View all registered users
    ```bash
     python viewusers01.py
+ 
+## Folder Structure
+
+   SecureChatApp/
+   
+    ├── server.py
+    ├── client.py
+    ├── viewusers.py
+    ├── users.db        # Automatically created after first run
+    └── README.md
 
 ## Requirements
   * Python 3.x
@@ -53,15 +63,12 @@ It allows multiple or more clients to connect to a central server and exchange p
      > SSL/TLS encryption for sockets
      
      > Better exception handling and logging
- 
-## Folder Structure
-   ```bash
-    SecureChatApp/
-     ├── server.py
-     ├── client.py
-     ├── viewusers.py
-     ├── users.db        # Automatically created after first run
-     └── README.md
+
+## Author
+    tharindulak-vithana
+
+
+
 
      
       
